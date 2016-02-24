@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:descendantFocusability="blocksDescendants"
+    tools:context="com.example.button.MainActivity" 
+    xmlns:app="http://schemas.android.com/apk/res/com.example.button">
+    <com.faizmalkani.floatingactionbutton.FloatingActionButton 
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/but"
+        android:layout_marginLeft="200dp"
+        app:color="#FFDF4D38"
+        android:layout_alignParentBottom="true"
+        android:focusable="false"
+        />
+    <ListView 
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></ListView>
+</RelativeLayout>
